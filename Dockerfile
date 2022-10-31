@@ -20,4 +20,4 @@ ENV S2I_SCRIPTS_PATH=/usr/libexec/s2i \
 
 RUN /tmp/scripts/assemble
 
-CMD [ "/tmp/scripts/run" ]
+CMD ["/tmp/scripts/run"]
